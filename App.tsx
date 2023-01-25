@@ -79,6 +79,7 @@ function App(): JSX.Element {
       // for the dapp:
       hostAppName: 'RIF Wallet',
       hostLogoUrl: 'https://rampnetwork.github.io/assets/misc/test-logo.png',
+      hostApiKey: 'API_KEY',
     });
 
     ramp.on('*', console.log);
