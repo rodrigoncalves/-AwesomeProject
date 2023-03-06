@@ -29,7 +29,7 @@ function App(): JSX.Element {
     console.log('Ramp Network');
     const ramp = new RampSdk({
       // for testnet:
-      url: 'https://ri-widget-staging.web.app/',
+      url: 'https://app.demo.ramp.network',
 
       // for IOV:
       swapAsset: 'RSK_RDOC',
